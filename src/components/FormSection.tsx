@@ -37,17 +37,24 @@ export default function FormSection() {
           initial={{ opacity: 0, y: 50, scale: 0.95 }}
           animate={isInView ? { opacity: 1, y: 0, scale: 1 } : {}}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="rounded-2xl overflow-hidden border border-agro-700/30 bg-white/5 backdrop-blur-sm"
+          className="max-w-lg mx-auto text-center p-10 rounded-2xl border border-agro-700/30 bg-agro-950/60 backdrop-blur-sm"
         >
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfFStkZ_xmQNn4aropsWachk0VhYpdPVb08WnyC8Ee21eMM7A/viewform?embedded=true"
-            width="100%"
-            height="900"
-            className="w-full border-0"
-            title="Formulário de Opinião - AgroSolution"
+          <span className="text-5xl block mb-6">📝</span>
+          <p className="text-agro-200 mb-8 leading-relaxed">
+            Leva menos de 2 minutos. Suas respostas nos ajudam a construir a
+            melhor ferramenta possível para o produtor rural.
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfFStkZ_xmQNn4aropsWachk0VhYpdPVb08WnyC8Ee21eMM7A/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-agro-400 hover:bg-agro-300 text-agro-950 font-bold rounded-full transition-all hover:scale-105 shadow-lg shadow-agro-400/30 text-lg"
           >
-            Carregando…
-          </iframe>
+            Responder Formulário
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
         </motion.div>
       </div>
     </section>

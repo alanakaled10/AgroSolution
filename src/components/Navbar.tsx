@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+
 const navLinks = [
   { label: "Início", href: "#hero" },
   { label: "O Problema", href: "#problema" },
@@ -36,9 +37,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#hero" className="flex items-center gap-2">
-            <span className="text-2xl">🌽</span>
+            <img
+              src="/img/icone.png"
+              alt="AgroSolution"
+              className="w-9 h-9"
+            />
             <span className="text-xl font-bold text-white">
-              Agro<span className="text-agro-400">Solution</span>
+              Agro<span className="text-agro-300">Solution</span>
             </span>
           </a>
 
@@ -48,7 +53,7 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm text-agro-100 hover:text-agro-400 transition-colors"
+                className="text-sm text-agro-200/70 hover:text-agro-300 transition-colors"
               >
                 {link.label}
               </a>
@@ -102,7 +107,7 @@ export default function Navbar() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="block text-agro-100 hover:text-agro-400 transition-colors py-2"
+                  className="block text-agro-200/70 hover:text-agro-300 transition-colors py-2"
                 >
                   {link.label}
                 </a>

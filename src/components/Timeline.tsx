@@ -12,8 +12,8 @@ const steps = [
     description:
       "João acorda e abre o app conectado no Wi-Fi da sede. O app atualiza preços do Yuan, Dólar, Clima e Bolsa automaticamente.",
     detail: "Dados sincronizados em segundos",
-    color: "bg-amber-500",
-    glowColor: "shadow-amber-500/30",
+    color: "bg-agro-400",
+    glowColor: "shadow-agro-400/30",
   },
   {
     time: "9:00",
@@ -34,8 +34,8 @@ const steps = [
     description:
       "João volta para a sede. O app detecta a internet e sobe o gasto de R$ 5.000 para a nuvem automaticamente em segundo plano.",
     detail: "Sync transparente e seguro",
-    color: "bg-blue-500",
-    glowColor: "shadow-blue-500/30",
+    color: "bg-agro-500",
+    glowColor: "shadow-agro-500/30",
   },
   {
     time: "14:00",
@@ -45,8 +45,8 @@ const steps = [
     description:
       '"Atenção João, seus custos de manutenção subiram. Como o mercado da China hoje abriu em baixa (Yuan), sugerimos vender 15% da sua soja armazenada agora para proteger seu caixa."',
     detail: "Ação recomendada com 1 clique",
-    color: "bg-purple-500",
-    glowColor: "shadow-purple-500/30",
+    color: "bg-agro-600",
+    glowColor: "shadow-agro-600/30",
   },
   {
     time: "15:00",
@@ -56,8 +56,8 @@ const steps = [
     description:
       "João agiu na hora certa, não ficou no vermelho e não precisou pegar dinheiro no banco a 35% de juros. Sua terra está protegida.",
     detail: "Margem preservada!",
-    color: "bg-gold-500",
-    glowColor: "shadow-gold-500/30",
+    color: "bg-agro-300",
+    glowColor: "shadow-agro-300/30",
   },
 ];
 

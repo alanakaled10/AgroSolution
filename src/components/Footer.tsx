@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 
+
 export default function Footer() {
   return (
     <footer className="bg-agro-950 border-t border-agro-800/30 py-10">
@@ -13,15 +14,19 @@ export default function Footer() {
           className="flex flex-col sm:flex-row items-center justify-between gap-4"
         >
           <div className="flex items-center gap-2">
-            <span className="text-2xl">🌽</span>
+            <img
+              src="/img/icone.png"
+              alt="AgroSolution"
+              className="w-7 h-7"
+            />
             <span className="text-lg font-bold text-white">
-              Agro<span className="text-agro-400">Solution</span>
+              Agro<span className="text-agro-300">Solution</span>
             </span>
           </div>
-          <p className="text-sm text-agro-400/60 text-center">
+          <p className="text-sm text-agro-200/40 text-center">
             Protegendo o futuro do produtor rural com tecnologia e inteligência.
           </p>
-          <p className="text-xs text-agro-500/40">
+          <p className="text-xs text-agro-200/30">
             &copy; {new Date().getFullYear()} AgroSolution
           </p>
         </motion.div>

@@ -54,7 +54,7 @@ export default function Problem() {
     <section
       id="problema"
       ref={ref}
-      className="relative py-20 sm:py-32 bg-gradient-to-b from-agro-950 to-red-950/30 overflow-hidden"
+      className="relative py-20 sm:py-32 bg-gradient-to-b from-agro-950 to-agro-950/30 overflow-hidden"
     >
       <div className="max-w-6xl mx-auto px-4">
         <motion.div
@@ -63,11 +63,11 @@ export default function Problem() {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <span className="text-sm uppercase tracking-widest text-red-400 font-semibold">
+          <span className="text-sm uppercase tracking-widest text-agro-300 font-semibold">
             O Cenário Atual
           </span>
           <h2 className="text-3xl sm:text-5xl font-bold text-white mt-3 mb-4">
-            A <span className="text-red-400">Tempestade Perfeita</span> no Agro
+            A <span className="text-agro-300">Tempestade Perfeita</span> no Agro
           </h2>
           <p className="text-agro-300/70 max-w-2xl mx-auto text-lg">
             O mercado vive uma crise aguda desde 2024. O produtor rural enfrenta
@@ -83,7 +83,7 @@ export default function Problem() {
               animate={isInView ? { opacity: 1, y: 0, scale: 1 } : {}}
               transition={{ duration: 0.5, delay: i * 0.15 }}
               whileHover={{ scale: 1.05, y: -5 }}
-              className="group relative p-6 rounded-2xl bg-gradient-to-br from-red-950/40 to-agro-950/60 border border-red-800/30 hover:border-red-500/50 transition-colors cursor-default"
+              className="group relative p-6 rounded-2xl bg-gradient-to-br from-agro-950/40 to-agro-950/60 border border-agro-700/30 hover:border-agro-400/50 transition-colors cursor-default"
             >
               <div className="flex items-start gap-4">
                 <span className="text-3xl flex-shrink-0 group-hover:scale-125 transition-transform">
@@ -98,11 +98,11 @@ export default function Problem() {
                   </p>
                 </div>
               </div>
-              <div className="mt-4 pt-4 border-t border-red-800/20 flex items-center gap-2">
-                <span className="text-2xl font-bold text-red-400">
+              <div className="mt-4 pt-4 border-t border-agro-700/20 flex items-center gap-2">
+                <span className="text-2xl font-bold text-agro-300">
                   {problem.stat}
                 </span>
-                <span className="text-xs text-red-300/60 uppercase tracking-wide">
+                <span className="text-xs text-agro-200/60 uppercase tracking-wide">
                   {problem.statLabel}
                 </span>
               </div>

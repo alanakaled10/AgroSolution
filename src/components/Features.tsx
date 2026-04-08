@@ -29,7 +29,7 @@ const pillars = [
           </div>
           <div className="flex justify-between text-sm">
             <span className="text-agro-300">🏗️ Talhão Sul</span>
-            <span className="text-red-400 font-bold">-R$ 12.800</span>
+            <span className="text-agro-200/60 font-bold">-R$ 12.800</span>
           </div>
           <div className="flex justify-between text-sm">
             <span className="text-agro-300">🌾 Talhão Leste</span>
@@ -49,35 +49,35 @@ const pillars = [
     icon: "📊",
     title: "Inteligência Macroeconômica",
     subtitle: "Radar de Mercado",
-    color: "from-blue-600 to-navy-800",
-    borderColor: "border-blue-500/30 hover:border-blue-400/60",
+    color: "from-agro-600 to-agro-800",
+    borderColor: "border-agro-500/30 hover:border-agro-400/60",
     features: [
       "Cotações da bolsa em tempo real (Real, Dólar e Yuan)",
       "Calculadora de risco de endividamento com IA",
       "Simulações inteligentes: comprar ou alugar?",
     ],
     demo: (
-      <div className="bg-navy-950/80 rounded-xl p-4 border border-blue-700/30">
+      <div className="bg-agro-950/80 rounded-xl p-4 border border-agro-700/30">
         <div className="flex items-center gap-2 mb-3">
-          <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
-          <span className="text-xs text-blue-400 font-mono">Radar Live</span>
+          <div className="w-2 h-2 rounded-full bg-agro-300 animate-pulse" />
+          <span className="text-xs text-agro-300 font-mono">Radar Live</span>
         </div>
         <div className="space-y-2">
           <div className="flex justify-between text-sm">
-            <span className="text-blue-200">Soja (Chicago)</span>
-            <span className="text-red-400">↓ US$ 11.52/bu</span>
+            <span className="text-agro-200">Soja (Chicago)</span>
+            <span className="text-agro-300">↓ US$ 11.52/bu</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-blue-200">Dólar</span>
-            <span className="text-agro-400">↑ R$ 5.83</span>
+            <span className="text-agro-200">Dólar</span>
+            <span className="text-agro-200">↑ R$ 5.83</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-blue-200">Yuan</span>
-            <span className="text-gold-400">→ R$ 0.81</span>
+            <span className="text-agro-200">Yuan</span>
+            <span className="text-agro-300">→ R$ 0.81</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-blue-200">Selic</span>
-            <span className="text-red-400">14.75% a.a.</span>
+            <span className="text-agro-200">Selic</span>
+            <span className="text-agro-300">14.75% a.a.</span>
           </div>
         </div>
       </div>
@@ -88,29 +88,29 @@ const pillars = [
     icon: "🧠",
     title: "IA Prescritiva",
     subtitle: "O Grande Diferencial",
-    color: "from-purple-600 to-purple-900",
-    borderColor: "border-purple-500/30 hover:border-purple-400/60",
+    color: "from-agro-600 to-agro-800",
+    borderColor: "border-agro-500/30 hover:border-agro-400/60",
     features: [
       "Alertas com botões de ação prontos",
       "Recomendações de estratégia defensiva",
       "Cruzamento automático de clima + mercado + custos",
     ],
     demo: (
-      <div className="bg-purple-950/80 rounded-xl p-4 border border-purple-700/30">
+      <div className="bg-agro-950/80 rounded-xl p-4 border border-agro-700/30">
         <div className="flex items-center gap-2 mb-3">
-          <div className="w-2 h-2 rounded-full bg-purple-400 animate-pulse" />
-          <span className="text-xs text-purple-400 font-mono">Alerta IA</span>
+          <div className="w-2 h-2 rounded-full bg-agro-300 animate-pulse" />
+          <span className="text-xs text-agro-300 font-mono">Alerta IA</span>
         </div>
-        <div className="bg-purple-900/50 rounded-lg p-3 border border-purple-600/20">
-          <p className="text-sm text-purple-100 leading-relaxed">
+        <div className="bg-agro-800/50 rounded-lg p-3 border border-agro-600/20">
+          <p className="text-sm text-agro-100 leading-relaxed">
             &ldquo;A ureia caiu 5% e há previsão de chuva em 10 dias no Talhão
-            Sul. <strong className="text-purple-300">Sugestão: Compre agora e aplique semana que vem.</strong>&rdquo;
+            Sul. <strong className="text-agro-200">Sugestão: Compre agora e aplique semana que vem.</strong>&rdquo;
           </p>
           <div className="flex gap-2 mt-3">
-            <button className="px-3 py-1.5 bg-purple-600 text-white text-xs rounded-lg font-semibold">
+            <button className="px-3 py-1.5 bg-agro-400 text-agro-950 text-xs rounded-lg font-semibold">
               ✅ Aceitar
             </button>
-            <button className="px-3 py-1.5 bg-purple-800/50 text-purple-300 text-xs rounded-lg border border-purple-600/30">
+            <button className="px-3 py-1.5 bg-agro-800/50 text-agro-200 text-xs rounded-lg border border-agro-600/30">
               Simular
             </button>
           </div>
@@ -123,33 +123,33 @@ const pillars = [
     icon: "📋",
     title: "Dossiê de Crédito",
     subtitle: "Score de Confiança",
-    color: "from-gold-600 to-amber-800",
-    borderColor: "border-gold-500/30 hover:border-gold-400/60",
+    color: "from-agro-600 to-agro-800",
+    borderColor: "border-agro-500/30 hover:border-agro-400/60",
     features: [
       "Relatório gerado com 1 clique",
       "Histórico climático e financeiro blindado em PDF",
       "Negocie taxas menores no banco sem arriscar a terra",
     ],
     demo: (
-      <div className="bg-amber-950/80 rounded-xl p-4 border border-amber-700/30">
+      <div className="bg-agro-950/80 rounded-xl p-4 border border-agro-700/30">
         <div className="flex items-center gap-2 mb-3">
-          <div className="w-2 h-2 rounded-full bg-gold-400 animate-pulse" />
-          <span className="text-xs text-gold-400 font-mono">Dossiê</span>
+          <div className="w-2 h-2 rounded-full bg-agro-300 animate-pulse" />
+          <span className="text-xs text-agro-300 font-mono">Dossiê</span>
         </div>
         <div className="space-y-2">
           <div className="flex items-center gap-2 text-sm">
-            <span className="text-agro-400">✓</span>
-            <span className="text-amber-200">Score: 87/100</span>
+            <span className="text-agro-300">✓</span>
+            <span className="text-agro-200">Score: 87/100</span>
           </div>
           <div className="flex items-center gap-2 text-sm">
-            <span className="text-agro-400">✓</span>
-            <span className="text-amber-200">3 safras sem prejuízo</span>
+            <span className="text-agro-300">✓</span>
+            <span className="text-agro-200">3 safras sem prejuízo</span>
           </div>
           <div className="flex items-center gap-2 text-sm">
-            <span className="text-agro-400">✓</span>
-            <span className="text-amber-200">Índice climático estável</span>
+            <span className="text-agro-300">✓</span>
+            <span className="text-agro-200">Índice climático estável</span>
           </div>
-          <button className="w-full mt-2 px-3 py-2 bg-gold-500 text-agro-950 text-xs rounded-lg font-bold">
+          <button className="w-full mt-2 px-3 py-2 bg-agro-400 text-agro-950 text-xs rounded-lg font-bold">
             📄 Exportar PDF Blindado
           </button>
         </div>

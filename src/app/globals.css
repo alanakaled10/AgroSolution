@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #f0fdf0;
-  --foreground: #052e16;
+  --background: #e6fff0;
+  --foreground: #1a2420;
 }
 
 * {
@@ -23,21 +23,21 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #dcfce7;
+  background: #34403A;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #16a34a;
+  background: #138A36;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #15803d;
+  background: #04E824;
 }
 
 /* Timeline connector line */
 .timeline-line {
-  background: linear-gradient(to bottom, #22c55e, #16a34a, #15803d);
+  background: linear-gradient(to bottom, #18FF6D, #04E824, #138A36);
 }
 
 /* Glassmorphism effect */
@@ -49,7 +49,7 @@ body {
 
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #22c55e, #4ade80, #eab308);
+  background: linear-gradient(135deg, #138A36, #04E824, #18FF6D);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
